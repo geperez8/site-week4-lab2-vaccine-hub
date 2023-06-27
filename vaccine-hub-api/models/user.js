@@ -16,7 +16,14 @@ class User {
     }
 
     static async register(credentials){
-
+        // user should submit their email, pw rsvp status, and # of guests
+        // if any of these fields are missing, throw an error
+        //
+        // make sure no user alrealyzed exists in the system with the email
+        // if one does, throw an error
+        //
+        // create a new user in the db with all their info
+        // return the user
     }
 }
 
